@@ -13,7 +13,8 @@ using System.Windows;
 public class InitSync : MonoBehaviour
 {
     private ROSConnection ros;
-    private string rosServiceName = "init_sync";
+    // ros service name
+    private string rosServiceName = "init_sync"; 
     public GameObject ur5;
     public static ArticulationBody[] jointArticulationBodies = new ArticulationBody[9];
 
